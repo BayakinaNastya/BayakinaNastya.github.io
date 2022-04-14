@@ -18,11 +18,11 @@ nav{
 
 .menu {
     float: left;
-    padding-left: 432px; 
+    padding-left: 438px; 
 }
-.menu ul {
+.menu li {
     float: left;
-    line-height: 50px;
+    line-height: 60px;
     color: #fff;
     margin-right: 40px;
     font-size: 16px;
@@ -31,8 +31,8 @@ nav{
 
 .main{
     width: 100%;
-    height: cale(100% - 60px);
-    background: url(../img/boy.png)90% 100%/auto 85px no-repeat, url(../img/bg.jpg.png)center/cover no-repeat;
+    height: calc(100% - 60px);
+    background: url(../img/boy.png)90% 100%/auto 515px no-repeat, url(../img/bg.jpg.png)center/cover no-repeat;
 }
 .title__container{
     float: left;
@@ -47,7 +47,7 @@ nav{
 }
 .title__container h4{
     margin-top: 40px;
-    font-size: 20px;
+    font-size: 22px;
     color: #79818d;
 }
 .title__container input{
